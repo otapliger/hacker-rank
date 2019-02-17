@@ -4,7 +4,7 @@ using System.Linq;
 
 public class SprintTraining
 {
-    public int GetMostVisited(int markerCount, int[] sprints)
+    public int GetMostVisited(int n, int[] sprints)
     {
         int[] totalVisits = new int[n];
 
