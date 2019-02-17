@@ -8,7 +8,7 @@ public class SprintTraining
     {
         int[] totalVisits = new int[n];
 
-        for (int j = 0; j < sprints.Count - 1; j++)
+        for (int j = 0; j < sprints.Length - 1; j++)
         {
             if (sprints[j] < sprints[j + 1])
                 for (int k = sprints[j]; k <= sprints[j + 1]; k++)
